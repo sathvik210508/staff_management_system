@@ -1,0 +1,12 @@
+{
+  "name": "liora-hospitals-staff-portal",
+  "version": "1.0.0",
+  "description": "LIORA HOSPITALS — Staff, Reception & Coordination Portal",
+  "scripts": {
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:gateway": "cd gateway && npm run dev",
+    "build:gateway": "cd gateway && npm run build",
+    "start": "cd backend && node server.js"
+  }
+}
